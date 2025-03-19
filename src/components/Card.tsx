@@ -2,7 +2,7 @@ import React from "react";
 
 interface CardProps {
   venueName: string;
-  imgSrc: string;
+  imgSrc: string; // image
   rating?: number; // Make rating optional
   onRatingChange?: (rating: number) => void; // Make onRatingChange optional
 }
